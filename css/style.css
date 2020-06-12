@@ -194,3 +194,14 @@ div.students {
   font-family: 'Open Sans', sans-serif; }
 .moreButton:hover {
   cursor: pointer; }
+
+figcaption {
+  color: #504538;
+  padding-left: 20px;}
+footer {
+  background-color: #333;
+  overflow: auto;
+  color: white;
+  font-size: 11px;
+  text-align: right;
+  padding-right: 20px; }
