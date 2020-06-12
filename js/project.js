@@ -43,9 +43,7 @@ function createProgramHTML(program) {
 
   let figure = $("<figure>");
   let image = $("<img>", {src: program.image, alt: program.image_title});
-  let caption = $("<figcaption>" + program.image_title + "</figcaption>");
   figure.append(image);
-  figure.append(caption);
   programHTML.append(figure);
 
   let title = $("<h2>" + program.program_title + "<h2>");
@@ -135,9 +133,7 @@ function createStudentHTML(student) {
   let studentHTML = $("<article class='studentArticle'>");
   let figure = $("<figure>");
   let image = $("<img>", {src: student.image, alt: student.image_title});
-  let caption = $("<figcaption>" + student.image_title + "</figcaption>");
   figure.append(image);
-  figure.append(caption);
   studentHTML.append(figure);
   let quote = $("<p>" + student.student_quote + "</p>");
   studentHTML.append(quote);
