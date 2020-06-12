@@ -1,0 +1,57 @@
+header, section, nav, article, figure, figcaption, footer {
+  display: block; }
+body, html {
+  height: 100%;
+  margin: 0;
+  width: 1349px;
+  margin: 0px auto 0px auto; }
+h2 {
+  font-family: 'Archivo', sans-serif; }
+p {
+  font-family: 'Open Sans', sans-serif; }
+
+/* Top navigation bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px; }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center; }
+.topleft ul li {
+    float: left;
+    padding: 5px 14px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold; }
+.topnav ul li {
+    float: right;
+    padding: 5px 20px;
+    font-size: 15px; }
+.topnav a:hover {
+  color: #db9834; }
+
+/* Header section */
+#sectionheader {
+  height: 100%; }
+.headerbg {
+  background-image: url("../images/header.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1px; }
+h1 {
+  font-family: 'Arvo', serif;
+  color: white;
+  font-size: 55px;
+  position: absolute;
+  bottom: 73px;
+  left: 100px; }
